@@ -9,16 +9,18 @@ I've recently set off on an exciting journey of learning coding. Despite being a
 ## Work Experience
  *Nothing yet* ... 
 ## Skills
+```
 * HTML5
 * CSS3/SASS
 * Git, GitHub
 * Figma
+```
 ## Courses
-[HTML Academy](https://htmlacademy.ru/)
-[Innopilis](https://stc.innopolis.university/frontend-developer) 
+* [HTML Academy](https://htmlacademy.ru/)
+* [Innopilis](https://stc.innopolis.university/frontend-developer) 
 ## Languages
 * **Spanish** - A2
-* **English** - C1, CAE proud owner (the results can be verified on the official site of [Cambridge](http://www.cambridgeenglish.org/verifiers)
+* **English** - C1, CAE proud owner (the results can be verified on the official site of [Cambridge](http://www.cambridgeenglish.org/verifiers) )
 
 
-![exam results](/rsschool-cv/cae.jpg)
+![exam results](cae.jpg)
