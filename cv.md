@@ -9,12 +9,10 @@ I've recently set off on an exciting journey of learning coding. Despite being a
 ## Work Experience
  *Nothing yet* ... 
 ## Skills
-```
 * HTML5
 * CSS3/SASS
 * Git, GitHub
 * Figma
-```
 ## Courses
 * [HTML Academy](https://htmlacademy.ru/)
 * [Innopilis](https://stc.innopolis.university/frontend-developer) 
