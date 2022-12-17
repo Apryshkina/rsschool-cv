@@ -4,11 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
     <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 <body>
-    <h1>Irina Apryshkina</h1>
-    <p>CV#2. HTML, CSS &amp; Git Basics</p>
+        <!-- HEADER -->
+    <header class="header">
+        <div class="header-photo">
+            <img class="header-photo__image" src="./assets/img/CV.png" alt="photo">
+        </div>
+        <div class="header-nav">
+            <nav class="header-nav__content">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"><a class="header-nav__link" href="">About me</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="">Projects</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="">Skills</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-info">
+            <h1 class="header-info__title">Irina Apryshkina</h1>
+            <h2 class="header-info__subtitle">Future front-end developer</h2>
+        </div>
+    </header>
+        <!-- MAIN PART -->
+    <main>
+        <aside>
+            <sectition class="">Skills</sectition>
+            <sectition class="">Courses</sectition>
+        </aside>
+        <div>
+            <section>
+                <h2>About me</h2>
+                <p>I've recently set off on an exciting journey of learning coding. Despite being a newbie in Front-end, I'm very much eager to acquire the knowledge needed for creating web projects.</p>
+            </section>
+            <section>
+                <h3>Code example</h3>
+                <pre>
+                    <code></code>
+                </pre>
+            </section>
+            <section>
+                <h3>Projects</h3>
+                <div>Yet to come...</div>
+            </section>
+            <sectition class="">
+                <h3>languages</h3>
+                <ul>
+                    <li>Spanish - A2</li>
+                    <li>English - C1, CAE holder (the results can be verified on the official site of <a href="https://www.cambridgeenglish.org/why-choose-us/higher-education-institutions/how-to-verify-results-online/">Cambridge</a>)</li>
+                    <img src="./assets/img/cae.jpg" alt="Certificate photo">
+                </ul>
+            </sectition>
+        </div>
+        
+    </main>
+        <!-- FOOTER -->
+    <footer class="footer">
+        <section class="footer-contacts">
+            <ul class="footer-contacts__list">
+                <li class="footer-contacts__item"><a class="footer-contacts__link" href="">Phone</a></li>
+                <li class="footer-contacts__item"><a class="footer-contacts__link" href="">E-mail</a></li>
+                <li class="footer-contacts__item"><a class="footer-contacts__link" href="">Telegram</a></li>
+            </ul>
+        </section>
+        <a href="github">
+            <img src="./assets/svg/github.svg" alt="github icon" width="26" height="26">
+            <p>Visit my Github</p>
+        </a>
+        <div class="footer-date">
+            © 2022
+        </div>
+        <a href="https://rs.school/js-stage0/">
+            <img src="./assets/svg/rs_school_js.svg" alt="Rsschool icon" width="73" height="26">
+        </a>
+    </footer>
 </body>
 </html>
