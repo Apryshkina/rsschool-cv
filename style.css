@@ -1,3 +1,170 @@
 * {
     box-sizing: border-box;
 }
+:root {
+    --main-color: goldenrod;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 5px;
+    padding: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: purple;
+    font-weight: 700;
+}
+
+a:hover {
+    color: rgb(50, 6, 50);
+}
+
+.header {
+    margin: calc(25 / 1440 * 100vw);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-photo {
+    width: 30%;
+}
+
+.header-photo__image {
+    margin-bottom: 10px;
+    border: 10px solid var(--main-color);
+    border-radius: 50%;
+}
+
+.header-content {
+    width: 70%;
+    height: 200px;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav__list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-nav__item {
+    margin-right: 30px;
+    font-size: calc(20 / 1440 * 100vw);
+    font-weight: 600;
+}
+
+.header-info {
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+/* main */
+.main-content {
+    display: flex;
+    margin: 0 20px;
+}
+.aside {
+    width: 35%;
+    margin: 5px;
+    padding: 10px 0 20px 20px;
+    /* background-color: ; */
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-heading {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+
+.aside__item {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: left center;
+}
+.contacts__tel {
+    background-image: url(./assets/svg/phone.svg);
+}
+.contacts__email {
+    background-image: url(./assets/svg/gmail.svg);
+}
+.contacts__telegram {
+    background-image: url(./assets/svg/telegram.svg);
+}
+.skills__html {
+    background-image: url(./assets/svg/html.svg);
+}
+.skills__css {
+    background-image: url(./assets/svg/css.svg);
+}
+.skills__github {
+    background-image: url(./assets/svg/git.svg);
+}
+.skills__figma {
+    background-image: url(./assets/svg/figma.svg);
+}
+
+.course__item {
+    padding-top: 8px;
+    font-size: 18px;
+}
+/* ----------------------------- */
+.main-info {
+    /* width: 65%; */
+    margin-right: 50px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+.main-section {
+    margin: 0 10px; 
+    padding-bottom: 5px;
+}
+pre {
+    background-color:  #f5f5f5;
+    width: 640px;
+}
+
+.project-info {
+    font-style: italic;
+}
+
+.language-item {
+    padding-bottom: 8px;
+}
+/* -------------- */
+.footer {
+    height: 90px;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+}
