@@ -12,13 +12,12 @@ body {
 }
 
 ul {
-    margin: 5px;
     padding: 0;
     list-style: none;
 }
 
 a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     color: purple;
     font-weight: 700;
@@ -157,9 +156,10 @@ a::after {
 .main-info {
     width: 60%;
     font-size: 16px;
+    padding-left: 15px;
 }
 .main-section {
-    margin: 0 10px; 
+    margin: 0; 
     padding-bottom: 5px;
 }
 pre {
@@ -173,6 +173,12 @@ pre {
 
 .language-item {
     padding-bottom: 8px;
+}
+
+.certificate {
+    margin: 0;
+    padding: 0;
+    width: 500px;
 }
 /* -------------- */
 .footer {
