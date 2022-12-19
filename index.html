@@ -9,18 +9,19 @@
     <title>CV</title>
 </head>
 <body>
+    
         <!-- HEADER -->
     <header class="header">
         <div class="header-photo">
             <img class="header-photo__image" src="./assets/img/CV.png" alt="photo">
         </div>
         <div class="header-content">
-            <nav class="header__nav">
+            <nav class="header-nav">
                 <ul class="header-nav__list">
-                    <li class="header-nav__item"><a class="header-nav__link" href="">About me</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Projects</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Skills</a></li>
-                    <li class="header-nav__item"><a class="header-nav__link" href="">Contacts</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="#me">About me</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="#projects">Projects</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="#skills">Skills</a></li>
+                    <li class="header-nav__item"><a class="header-nav__link" href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
             <div class="header-info">
@@ -32,7 +33,7 @@
         <!-- MAIN -->
     <main class="main-content">
         <aside class="aside">
-            <section class="aside-contacts">
+            <section class="aside-contacts" id="contacts">
                 <h3 class="aside-heading">Contacts</h3>
                 <ul class="aside-contacts__list">
                     <li class="aside__item contacts__tel"><a class="aside__link" href="tel:+79111478001" target="_blank">+79111478001</a></li>
@@ -40,7 +41,7 @@
                     <li class="aside__item contacts__telegram"><a class="aside__link" href="https://t.me/IrinaApryshkina" target="_blank">@IrinaApryshkina</a></li>
                 </ul>
             </section>
-            <sectition class="aside-skills">
+            <section class="aside-skills" id="skills">
                 <h3 class="aside-heading">Skills</h3>
                 <ul class="aside-skills__list">
                     <li class="aside__item skills__html">HTML5</li>
@@ -48,8 +49,8 @@
                     <li class="aside__item skills__github">Git, GitHub</li>
                     <li class="aside__item skills__figma">Figma</li>
                 </ul>
-            </sectition>
-            <sectition class="aside-courses">
+            </section>
+            <section class="aside-courses">
                 <h3 class="aside-heading">Courses</h3>
                 <ul class="aside-courses__list">
                     <li class="course__item">
@@ -62,14 +63,14 @@
                         <a class="aside__link" href="https://htmlacademy.ru/" target="_blank">HTML Academy</a>
                     </li>
                 </ul>
-            </sectition>
+            </section>
         </aside>
         <div class="main-info">
-            <section class="main-section">
+            <section class="main-section" id="me">
                 <h2 class="main-heading">About me</h2>
                 <p>I've recently set off on an exciting journey of learning coding. Despite being a newbie in Front-end, I'm very much eager to acquire the knowledge needed for creating web projects.</p>
             </section>
-            <section class="main-section">
+            <section class="main-section" id="code">
                 <h2 class="main-heading">Code example</h2>
                 <pre>
                     <code>
@@ -79,26 +80,26 @@
                     </code>
                 </pre>
             </section>
-            <section class="project-section">
+            <section class="project-section" id="projects">
                 <h2 class="main-heading">Projects</h2>
                 <div class="project-info">Yet to come...</div>
             </section>
-            <sectition class="main-section">
+            <section class="main-section" id="languages">
                 <h2 class="main-heading">Languages</h2>
                 <ul>
                     <li class="language-item">Russian - Native</li>
                     <li class="language-item">Spanish - A2</li>
                     <li class="language-item">English - C1, CAE holder</li>
-                    <img src="./assets/img/cae.jpg" alt="Certificate photo" width="500">
                 </ul>
-            </sectition>
+                <img src="./assets/img/cae.jpg" alt="Certificate photo" width="500">
+            </section>
         </div>
     </main>
         <!-- FOOTER -->
     <footer class="footer">
         <a class="footer-link" href="https://github.com/Apryshkina" target="_blank">
             <img src="./assets/svg/github.svg" alt="github icon" width="26" height="26">
-            <p>Visit my Github</p>
+            <p class="footer-para">Visit my Github</p>
         </a>
         <div class="footer-date">2022</div>
         <a href="https://rs.school/js-stage0/" target="_blank">
